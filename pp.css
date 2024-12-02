@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 5rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+    display: block;
+    margin: 0 auto 20px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: linear-gradient(to right, #4facfe2a, #c5cccd); /* Gradient */
+    color: #333; /* Ensure text color contrasts with the background */
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Adds contrast with transparency */
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+    
